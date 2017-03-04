@@ -1,0 +1,4 @@
+doc/howdoi.txt
+plugin/howdoi.vim
+README.md
+LICENSE

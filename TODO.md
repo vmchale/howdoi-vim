@@ -1,0 +1,4 @@
+- [x] make it work on variable-length strings
+- [ ] make it have variables for everything
+  - [x] number of answers
+  - [ ] whether to display full answers
