@@ -40,7 +40,8 @@ spaces, e.g.  >
 Values: String
 Default: ''
 
-This string contains any command line options that should be passed to howdoi 
+This string contains any command line options that should be passed 
+to howdoi. 
 
 ======================================================================
 Section 3: License                                     *HowdoiLicense*

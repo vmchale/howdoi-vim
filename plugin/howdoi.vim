@@ -84,7 +84,7 @@ fun! HowdoiClose() "{{{
 endfunction "}}}
 
 " Open a scratch buffer or reuse the previous one
-fun! Howdoi(...) "{{{
+fun! HowdoiFn(...) "{{{
     let last_buffer = bufnr("%")
 
     if s:HowdoiGotoWin() < 0
@@ -113,4 +113,4 @@ fun! Howdoi(...) "{{{
 
 endfunction "}}}
 
-command! -nargs=* Howto call Howdoi(<f-args>)
+command! -nargs=* Howdoi call HowdoiFn(<f-args>)
