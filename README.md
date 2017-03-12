@@ -1,9 +1,21 @@
 ### Installation
 
+With [Vim-plug](https://github.com/junegunn/vim-plug) add this to your .vimrc:
+
+```
+Plug 'vmchale/howdoi-vim' , {'do' : './install.sh' }
+```
+
 With [Vundle](https://github.com/VundleVim/Vundle.vim) simply add this to your .vimrc:
 
 ```
 Plugin 'vmchale/howdoi-vim'
+```
+
+If you use vundle you'll have to install howdoi manually, e.g. with 
+
+```
+pip install howdoi
 ```
 
 The advantage of this plugin is that it does not require a vim compiled with
