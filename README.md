@@ -6,7 +6,10 @@ With [Vundle](https://github.com/VundleVim/Vundle.vim) simply add this to your .
 Plugin 'vmchale/howdoi-vim'
 ```
 
-Of couse, you'll need to install [howdoi](https://github.com/gleitz/howdoi) as well. If you have pip, this is as simple as typing:
+The advantage of this plugin is that it does not require a vim compiled with
++python, so you don't have to go outside your distro to get it. Of couse, 
+you'll need to install [howdoi](https://github.com/gleitz/howdoi) as well. If 
+you have pip, this is as simple as typing:
 
 ```
 pip install howdoi
